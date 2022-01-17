@@ -1,6 +1,6 @@
 {
   "name": "react-link-external",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source": "src/LinkExternal/LinkExternal.js",
   "main": "./dist/LinkExternal.umd.js",
   "module": "./dist/LinkExternal.module.js",
