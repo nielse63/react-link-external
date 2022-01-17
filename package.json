@@ -8,7 +8,7 @@
   "types": "./dist/LinkExternal.d.ts",
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "rm -rf distt",
+    "prebuild": "rm -rf dist",
     "build": "microbundle --compress false --css inline --jsx React.createElement",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
