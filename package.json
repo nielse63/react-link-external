@@ -1,10 +1,15 @@
 {
   "name": "react-link-external",
   "version": "1.0.0",
-  "main": "src/LinkExternal/index.js",
+  "source": "src/LinkExternal/LinkExternal.js",
+  "main": "./dist/LinkExternal.umd.js",
+  "module": "./dist/LinkExternal.module.js",
+  "exports": "./dist/LinkExternal.modern.js",
+  "types": "./dist/LinkExternal.d.ts",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "prebuild": "rm -rf distt",
+    "build": "microbundle --compress false --css inline --jsx React.createElement",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepublishOnly": "npm run build"
@@ -18,6 +23,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "jest-axe": "^5.0.1",
+    "microbundle": "^0.14.2",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -26,8 +32,7 @@
   },
   "peerDependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "sass": "^1.48.0"
+    "react-dom": "^17.0.2"
   },
   "eslintConfig": {
     "extends": [
