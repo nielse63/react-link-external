@@ -6,6 +6,34 @@
   "module": "./dist/LinkExternal.module.js",
   "exports": "./dist/LinkExternal.modern.js",
   "types": "./dist/LinkExternal.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nielse63/react-link-external.git"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "react-link-external",
+    "component",
+    "components",
+    "react-link"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nielse63/react-link-external/issues"
+  },
+  "homepage": "https://github.com/nielse63/react-link-external#readme",
+  "author": {
+    "name": "Erik Nielsen",
+    "email": "erik@312development.com",
+    "url": "https://github.com/nielse63/"
+  },
   "scripts": {
     "start": "react-scripts start",
     "prebuild": "rm -rf dist",
