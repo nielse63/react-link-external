@@ -1,0 +1,6 @@
+!.*.js
+!.bin/
+**/dist/**
+**/coverage/**
+**/__fixtures__/**
+**/templates/**

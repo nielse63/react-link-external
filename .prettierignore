@@ -1,0 +1,6 @@
+!.*.js
+!.bin/
+**/package-lock.json
+**/dist/**
+**/coverage/**
+**/templates/**
