@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    // "lib": ["es6", "dom"],
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    // "typeRoots": ["./"],
+    // "types": [],
+    // "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    // "paths": {
+    //   "react-link-external": ["types"]
+    // },
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./types",
+    // "paths": {
+    //   "*": ["node_modules/*", "node_modules/@types/*"]
+    // },
+    "types": ["react", "react-dom"]
+  },
+  "include": ["src/LinkExternal/*", "src/old/index.ts"]
+}
